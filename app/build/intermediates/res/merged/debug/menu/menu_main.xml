@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--This drawer menu has items only without
+    any group or classification -->
+
+    <item
+        android:id="@+id/item_home"
+        android:checkable="true"
+        android:icon="@drawable/ic_android"
+        android:title="Home"/>
+
+
+
+    <item
+        android:id="@+id/item_location"
+        android:checkable="true"
+       android:title="" />         <!-- location olacak -->
+
+
+    <item
+        android:id="@+id/item_situation"
+        android:checkable="true"
+        android:title="Phone Situation Details"/>           <!-- phone sistuation olacak -->
+    <!--
+    //Average ratingleri en yüksek olan kategorilere göre  -->
+    <item
+        android:id="@+id/item_MusicAudio"
+        android:checkable="true"
+        android:title="Music and Audio" />
+    <item
+        android:id="@+id/item_BooksReference"
+        android:checkable="true"
+        android:title="Books and Reference"/>
+    <item
+        android:id="@+id/item_Social"
+        android:checkable="true"
+        android:title="Social"
+        />
+
+
+
+
+
+
+
+
+
+
+</menu><!-- From: file:/Users/mrbank/AndroidStudioProjects/BlackBoxDesign/app/src/main/res/menu/menu_main.xml -->

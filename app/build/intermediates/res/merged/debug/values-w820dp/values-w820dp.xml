@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mrbank/AndroidStudioProjects/BlackBoxDesign/app/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <!-- From: file:/Users/mrbank/AndroidStudioProjects/BlackBoxDesign/app/src/main/res/values-w820dp/google_maps_api.xml -->
+    <eat-comment/>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAu6hPLik53twJgtEgOEk4ZGoLZYV-fe7o
+    </string>
+</resources>
