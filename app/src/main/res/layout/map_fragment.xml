@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+<EditText
+    android:id="@+id/nameofLocationEditText"
+    android:hint="Name of Location"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    />
+    <Button
+        android:id="@+id/pinCurrentLocation"
+        android:text="Pin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+
+        />
+
+
+     <Button
+         android:id="@+id/showLocationButton"
+         android:text="Show"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent" />
+
+
+ </LinearLayout>
+
+    <fragment
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+</LinearLayout>
